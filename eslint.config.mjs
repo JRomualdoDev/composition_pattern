@@ -15,6 +15,16 @@ const eslintConfig = [
     'next/typescript',
     'plugin:prettier/recommended'
   ),
+  {
+    rules: {
+      'prettier/prettier': [
+        'error',
+        {
+          endOfLine: 'auto',
+        },
+      ],
+    },
+  },
 ];
 
 export default eslintConfig;
